@@ -42,6 +42,7 @@ background:url(../images/about/porfile.jpg)no-repeat center;}
 #scroll-Top .return-to-top{background-color: #9d68ff; border:1px solid #9d68ff;}
 #scroll-Top  .return-to-top:hover{color: #9d68ff; border:1px solid #9d68ff;}
 
+.fix_port{border-right: 0;}
 .fancybox-overlay{z-index: 9999;}
 .fancybox-wrap{width: 60% !important;}
 .fancybox-outer{ overflow-y: scroll;}
@@ -57,6 +58,7 @@ background:url(../images/about/porfile.jpg)no-repeat center;}
 /* 스크롤바 뒷 배경 설정*/ 
 .fancybox-outer::-webkit-scrollbar-track{ background-color: rgba(0,0,0,0); }
 
+
 @media(min-width:780px){
   .single-about-txt h3{ font-size: 2.3rem; }
   .section-heading h2{padding: 100px 0; font-size: 30px;}
@@ -67,5 +69,5 @@ background:url(../images/about/porfile.jpg)no-repeat center;}
 }
 
 @media(max-width:780px){
-
+.container .contact-content .pix{text-align: center;}
 }

@@ -69,8 +69,15 @@ background:url(../images/about/porfile.jpg)no-repeat center;}
 
 .single-contact-box .pix{width: 450px;}
 .single-about-txt .intro{width: 550px;}
+.contact-adress{padding-top: 40px;}
 }
 
 @media(max-width:780px){
+  .contact-adress{padding-top: 40px;}
+}
 
+@media(max-width:480px){
+  .contact-adress{ text-align: center;}
+  .contact-adress{padding-top: 0;}
+  .hm-foot-icon ul{width: 120px; height: 40px; padding-left: 30px;}
 }

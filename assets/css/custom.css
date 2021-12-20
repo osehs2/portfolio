@@ -58,6 +58,9 @@ background:url(../images/about/porfile.jpg)no-repeat center;}
 /* 스크롤바 뒷 배경 설정*/ 
 .fancybox-outer::-webkit-scrollbar-track{ background-color: rgba(0,0,0,0); }
 
+.artworks-content .single-profile.sp1{background:url(../images/artworks/sp_img1.jpg)no-repeat center;}
+
+
 
 @media(min-width:780px){
   .single-about-txt h3{ font-size: 2.3rem; }

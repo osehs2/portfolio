@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function(){ //시작
 	"use strict";
     
         /*==================================
@@ -130,5 +130,9 @@ $(document).ready(function(){
 			// padding:10	
 		});
 
-});	
+		$(".isotope .item .isotope-overlay a.item-open").fancybox({
+			// padding:10	
+		});
+
+	});//끝	
 	

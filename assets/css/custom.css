@@ -65,6 +65,52 @@ background:url(../images/about/porfile.jpg)no-repeat center;}
 .artworks-content .single-profile.sp5{background:url(../images/artworks/sp_img5.jpg)no-repeat center;}
 .artworks-content .single-profile.sp6{background:url(../images/artworks/sp_img6.jpg)no-repeat center;}
 
+/* .item{position: relative;}
+.item .isotope-overlay{width: 100px; height: 50px;
+  position: absolute; top:50%; left: 50%; transform: translate(-50%,-50%);
+}
+.item .isotope-overlay button{position: absolute;}
+.item .isotope-overlay .bt1{
+  width: 20px; height: 20px; background-color: red;}
+.item .isotope-overlay .bt2{
+  width: 20px; height: 20px; background-color: violet;} */
+
+    /* .isotope .item .isotope-overlay{
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1);
+    -o-transform:scale(1);
+    transform:scale(1);
+    top:0;
+}  */
+
+.isotope .item .isotope-overlay a{
+  display: inline-block;
+  width: 100px; height: 100px;
+  font-size: 12px; font-weight: bold;}
+
+.isotope .item .isotope-overlay a.item-open{
+  background-image: url(../images/artworks/vision.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40px;
+  transform: scale(0); 
+  transition: all 0.5s;
+}
+.isotope .item .isotope-overlay a.item-link{
+  background-image: url(../images/artworks/http.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 35px auto;
+  transform: scale(0); 
+  transition: all 0.5s;
+}
+.isotope .item .isotope-overlay:hover a{
+  transform: scale(1);
+}
+.isotope .item .isotope-overlay a.item-open:hover{transform: translateY(20%);}
+.isotope .item .isotope-overlay a.item-link:hover{transform: translateY(20%);}
+
 
 
 @media(min-width:780px){
